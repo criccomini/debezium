@@ -96,6 +96,7 @@ public abstract class AbstractReader implements Reader {
 
     @Override
     public void start() {
+        logger.info("ATTEMPTING TO START READER {}", name);
         if (this.running.compareAndSet(false, true)) {
             this.failure.set(null);
             this.success.set(false);
@@ -105,6 +106,7 @@ public abstract class AbstractReader implements Reader {
 
     @Override
     public void stop() {
+        logger.info("ATTEMPTING TO STOP READER {}", name);
         try {
             doStop();
             running.set(false);
