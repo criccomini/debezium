@@ -16,9 +16,9 @@
     <packaging>pom</packaging>
     <url>http://debezium.io</url>
     <scm>
-        <connection>scm:git:git@github.com:debezium/debezium.git</connection>
-        <developerConnection>scm:git:git@github.com:debezium/debezium.git</developerConnection>
-        <url>https://github.com/debezium/debezium</url>
+        <connection>scm:git:git@github.com:criccomini/debezium.git</connection>
+        <developerConnection>scm:git:git@github.com:criccomini/debezium.git</developerConnection>
+        <url>https://github.com/criccomini/debezium</url>
       <tag>HEAD</tag>
     </scm>
     <issueManagement>
